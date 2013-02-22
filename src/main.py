@@ -1,11 +1,6 @@
 import e_dataset
 import b_emailWrapper as mailWrapper
-
-
-_EMAIL_USER = "isel.dm@gmail.com"
-_PASSWORD="qwertyasdf"
-#_GMAIL_SERVER="imap.gmail.com"
-_GMAIL_SERVER="imap.gmail.com"
+import credentials
 
 
 def populate(mailbox_list =["Inbox"], dateSince = "12-Dec-2012" ):
